@@ -1,12 +1,6 @@
 name: check-secrets-action
 author: mattdavis0351
 description: validation action for this lab
-
-steps:
-  - name: Hello world action
-    with: # Set the secret as an input
-      your-secret: ${{ secrets.exercise_pat }}
-      secrets-context: ${{ secrets }}
       
 inputs:
   your-secret:
