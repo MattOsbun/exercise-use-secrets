@@ -6,6 +6,7 @@ steps:
   - name: Hello world action
     with: # Set the secret as an input
       your-secret: ${{ secrets.exercise_pat }}
+      secrets-context: ${{ secrets }}
       
 inputs:
   your-secret:
